@@ -58,7 +58,7 @@ A complete **end-to-end data analytics project** built on the **Kaggle Superstor
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
     sales-analytics-dashboard/
     │

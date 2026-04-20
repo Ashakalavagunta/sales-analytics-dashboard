@@ -69,7 +69,7 @@ A complete **end-to-end data analytics project** built on the **Kaggle Superstor
 
 ---
 
-## ⚙️ ETL Pipeline Summary
+## ETL Pipeline Summary
 
 **Step 1 — Extract**
 - Loaded raw CSV (9,994 rows × 21 columns) with latin-1 encoding

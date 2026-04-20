@@ -154,10 +154,10 @@ def load_data():
     }
     df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns}, inplace=True)
 
-    # Date parsing
+    # Date parsing (infer_datetime_format removed in pandas 2.x)
     for col in ['Order_Date', 'Ship_Date']:
         if col in df.columns:
-            df[col] = pd.to_datetime(df[col], infer_datetime_format=True, errors='coerce')
+            df[col] = pd.to_datetime(df[col], errors='coerce')
 
     # Numeric coercion
     for col in ['Sales', 'Profit', 'Discount', 'Quantity']:

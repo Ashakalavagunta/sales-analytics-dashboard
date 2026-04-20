@@ -58,14 +58,15 @@ A complete **end-to-end data analytics project** built on the **Kaggle Superstor
 
 ---
 
-## Project Structure
-  sales-analytics-dashboard/
-│
-├── app.py                  ← Streamlit dashboard (main app)
-├── etl_pipeline.py         ← Standalone ETL script
-├── cleaned_data.csv        ← ETL output (9,994 rows × 30 cols)
-├── requirements.txt        ← Python dependencies
-└── README.md               ← You are here
+## 📁 Project Structure
+
+    sales-analytics-dashboard/
+    │
+    ├── app.py                  ← Streamlit dashboard
+    ├── etl_pipeline.py         ← Standalone ETL script
+    ├── cleaned_data.csv        ← ETL output (9,994 rows × 30 cols)
+    ├── requirements.txt        ← Python dependencies
+    └── README.md               ← You are here
 
 ---
 
